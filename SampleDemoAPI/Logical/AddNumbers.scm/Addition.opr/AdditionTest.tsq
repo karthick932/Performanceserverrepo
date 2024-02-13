@@ -2,7 +2,7 @@
 <editableResource createdTimestamp="1704496742793"
     createdUser="karthick_ba" id="-6caae19:18cd9cc912a:-7ced"
     references="-43d5df71:18cd8ac27b0:-7e80,-43d5df71:18cd8ac27b0:-7eab"
-    type="test_resource" updatedTimestamp="1707807331376"
+    type="test_resource" updatedTimestamp="1707822542944"
     updatedUser="karthick_ba" version="1.1">
     <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -326,6 +326,15 @@
                         </_c>
                     </bodyMessage>
                 </resourceConfig>
+            </editableResource>
+            <editableResource id="15fb1c8f:18da226c154:-7e65"
+                selfDescribing="The log actions enables you to output messages to console and a logging file."
+                type="logging_action" version="1.0">
+                <loggingConfiguration debug="false"
+                    resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+                <resourceConfig append="true" description=""
+                    flush="true" loggingMessage="newlogmessage"
+                    name="newlogmessage" outputFile="" role="0"/>
             </editableResource>
             <editableResource id="-6caae19:18cd9cc912a:-7ce3"
                 references="-43d5df71:18cd8ac27b0:-7e80,-43d5df71:18cd8ac27b0:-7eab"
